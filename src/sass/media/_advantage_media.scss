@@ -1,7 +1,14 @@
+@media (max-width: 1000px){
+    .advantage{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
 @media (max-width: 650px){
     .advantage{
-        padding: 30px 0 25px 0;
-        &__title{
+        padding: 30px 0px 25px 0px;
+        .title{
             margin-bottom: 35px;
         }
         &__content{
@@ -24,7 +31,7 @@
 
 @media (max-width: 380px){
     .advantage{
-        &__title{
+        .title{
             font-size: 24px;
         }
     }
